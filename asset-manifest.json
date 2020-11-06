@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Cuarentena-Saludable/static/css/main.29395a51.chunk.css",
+    "main.js": "/Cuarentena-Saludable/static/js/main.dcb7bc28.chunk.js",
+    "main.js.map": "/Cuarentena-Saludable/static/js/main.dcb7bc28.chunk.js.map",
+    "runtime-main.js": "/Cuarentena-Saludable/static/js/runtime-main.aed06133.js",
+    "runtime-main.js.map": "/Cuarentena-Saludable/static/js/runtime-main.aed06133.js.map",
+    "static/js/2.8a174be9.chunk.js": "/Cuarentena-Saludable/static/js/2.8a174be9.chunk.js",
+    "static/js/2.8a174be9.chunk.js.map": "/Cuarentena-Saludable/static/js/2.8a174be9.chunk.js.map",
+    "static/js/3.a94d2856.chunk.js": "/Cuarentena-Saludable/static/js/3.a94d2856.chunk.js",
+    "static/js/3.a94d2856.chunk.js.map": "/Cuarentena-Saludable/static/js/3.a94d2856.chunk.js.map",
+    "index.html": "/Cuarentena-Saludable/index.html",
+    "static/css/main.29395a51.chunk.css.map": "/Cuarentena-Saludable/static/css/main.29395a51.chunk.css.map",
+    "static/js/2.8a174be9.chunk.js.LICENSE.txt": "/Cuarentena-Saludable/static/js/2.8a174be9.chunk.js.LICENSE.txt",
+    "static/media/img-1.11bbfc15.jpg": "/Cuarentena-Saludable/static/media/img-1.11bbfc15.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aed06133.js",
+    "static/js/2.8a174be9.chunk.js",
+    "static/css/main.29395a51.chunk.css",
+    "static/js/main.dcb7bc28.chunk.js"
+  ]
+}
