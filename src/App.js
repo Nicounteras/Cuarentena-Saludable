@@ -9,7 +9,8 @@ function App() {
     <Router>
    <NavBar/>
       <Switch>
-      <Route path="/Cuarentena-Saludable/" exact component={Home}/>
+        <Route path="/" component={Home}/>
+      <Route path="/Cuarentena-Saludable/" component={Home}/>
       </Switch>
       </Router>
     </>
