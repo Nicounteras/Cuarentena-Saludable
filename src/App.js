@@ -10,7 +10,7 @@ function App() {
    <NavBar/>
       <Switch>
         <Route path="/" component={Home}/>
-      <Route path="/Cuarentena-Saludable/" component={Home}/>
+      <Route path="/cuarentena-saludable/" component={Home}/>
       </Switch>
       </Router>
     </>
