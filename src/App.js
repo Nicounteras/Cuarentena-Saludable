@@ -1,22 +1,65 @@
 import React from "react"
 import NavBar from "./NavBar"
-import Home from "./components/Home"
+import { Link } from "react-router-dom"
+import img1 from "./img-1.jpg"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 function App() {
   return (
     <>
     <Router>
-   <NavBar/>
+     <NavBar/>
       <Switch>
-        <Route path="/" exact>
-          <Home/>
-        </Route>
+        <Route path="/" exact component={Home} />
       </Switch>
       </Router>
     </>
   );
 }
 
+const Home = () => (
+  <>
+<div className="complete-home-background">
+      <h1>
+        Un blog enfocado en la salud
+      </h1>
+      <h4>
+        Encuentra información para mejorar tu salud física y mental durante el confinamiento
+      </h4>
+      <Link>
+      <article>
+        <img src={img1}/>
+        <h2>
+          Cinco actividades con las que puedes combatir el aburrimiento y desestresarte
+        </h2>
+      </article>
+      </Link>
+      <Link>
+      <article>
+        <img src={img1}/>
+        <h2>
+          Cinco actividades con las que puedes combatir el aburrimiento y desestresarte
+        </h2>
+      </article>
+      </Link>
+      <Link>
+      <article>
+        <img src={img1}/>
+        <h2>
+          Cinco actividades con las que puedes combatir el aburrimiento y desestresarte
+        </h2>
+      </article>
+      </Link>
+      <Link>
+      <article>
+        <img src={img1}/>
+        <h2>
+          Cinco actividades con las que puedes combatir el aburrimiento y desestresarte
+        </h2>
+      </article>
+      </Link>
+    </div>
+    </>
+)
 
 export default App;
