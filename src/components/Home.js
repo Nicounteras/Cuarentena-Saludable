@@ -1,7 +1,6 @@
 import React from "react"
-import NavBar from "../NavBar"
 import { Link } from "react-router-dom"
-import img1 from "./img-1.jpg"
+import img1 from "../img-1.jpg"
 
 function Home() {
   return (
